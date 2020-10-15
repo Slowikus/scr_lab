@@ -8,5 +8,5 @@ if [ $dzienTyg -lt 6 ]; then
     echo "Dzien roboczy"
 else
 
-    echo "Wikend"
+    echo "Weekend"
 fi
