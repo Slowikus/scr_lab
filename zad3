@@ -1,5 +1,5 @@
 #!/bin/bash
 
-find -name "*.$1" -mtime -$2 | xargs tar -czf $3.tgz
+find -name "*.$1" -mtime -$1 | xargs tar -czf $3.tgz
 
 done
