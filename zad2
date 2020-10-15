@@ -1,0 +1,7 @@
+#!/bin/bash
+
+for mail in $(cat adresy.txt)
+do
+    
+    cat tresc.txt | mutt -s "Okna PCV" $mail -a spec*.pdf
+done
